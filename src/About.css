@@ -1,0 +1,33 @@
+#about{
+    border: 3px solid black;
+    font-size: 1vw;
+    user-select: none;
+    background-color: white;
+    height: 14vh;
+    padding-left: 5px;
+    position: absolute;
+    left: 2px;
+    top: 18vh;
+    width: 7vw;
+    text-align: center;
+}
+
+#about.selected{
+    background-color: orange;
+}
+
+#about.not{
+    background-color: white;
+}
+
+@media screen and (max-width:1000px){
+    #image{
+        display:none;
+    }
+}
+
+@media screen and (max-height:700px){
+    #image{
+        display:none;
+    }
+}

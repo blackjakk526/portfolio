@@ -1,0 +1,26 @@
+.sidebar {
+    box-sizing: border-box;
+}
+
+.profile {
+    padding-top: 5px;
+    position: absolute;
+    padding-left: 5px;
+    left: 0px;
+    top: 0px;
+    width: 7.5vw;
+    height: 15vh;
+}
+
+h1{
+    font-size: 0.75vw; 
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding-left: 5px;
+    position: absolute;
+    left: 4px;
+    top: 14.5vh;
+    width: 7.2vw;
+    height: 2vh;
+}

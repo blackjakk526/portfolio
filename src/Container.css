@@ -1,0 +1,15 @@
+.mainpage {
+    font-size: 20px;
+    padding: 50px;
+    margin: 0;
+    transition: transform .3s 
+                cubic-bezier(0, .52, 0, 1);
+}
+
+.false{
+    display:none;
+}
+
+.true{
+    display: show;
+}
