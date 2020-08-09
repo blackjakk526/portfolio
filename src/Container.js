@@ -5,6 +5,7 @@ import { Document, Page } from 'react-pdf';
 import pdf from './Alan Gounley resume 08-09-2020.pdf'
 
 import { pdfjs } from 'react-pdf';
+pdfjs.disableFontFace =  true;
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 class Container extends Component {
@@ -44,12 +45,21 @@ class Container extends Component {
             <div id="mainpage">
                 <Sidebar selected={this.state.selected} handleMouseDown={this.handleMouseDown}></Sidebar>
                 <div className={this.state.selected[0].toString()}>
-                    <p>Hello this is Alan Gounley's portfolio website</p>
+                    <h2>Alan Gounley</h2>
+                    <p>Software Engineer/Developer</p>
                 </div>
                 <div className={this.state.selected[1].toString()}>
-                    <Document file={pdf}>
+                    <Document file={pdf} renderMode="canvas">
                         <Page pageNumber={1} scale="2.0"/>
                     </Document>
+                </div>
+                <div className={this.state.selected[2].toString()}>
+                    <p>Coming Soon</p>
+                </div>
+                <div className={this.state.selected[3].toString()}>
+                    <p>Alan Gounley</p>
+                    <p>(717)650-7175</p>
+                    <p>agounley@gmail.com</p>
                 </div>
             </div>
         );
