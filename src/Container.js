@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Container.css";
 import Sidebar from "./Sidebar";
 import { Document, Page } from 'react-pdf';
-import pdf from './Alan Gounley NEW resume 07-09-2020_word365.pdf'
+import pdf from './Alan Gounley resume 08-09-2020.pdf'
 
 import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
