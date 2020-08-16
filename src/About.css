@@ -10,6 +10,7 @@
     top: 18vh;
     width: 7vw;
     text-align: center;
+    transition: height 0.5s;
 }
 
 #about.selected{
@@ -20,13 +21,21 @@
     background-color: white;
 }
 
-@media screen and (max-width:1000px){
-    #image{
+#image{
+    width: 3.5vw;
+}
+
+@media screen and (max-width:1200px){
+    /* #image{
         display:none;
+    } */
+
+    #about{
+        height: 7vh;
     }
 }
 
-@media screen and (max-height:700px){
+@media screen and (max-height:800px){
     #image{
         display:none;
     }

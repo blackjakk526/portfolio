@@ -11,8 +11,8 @@ class Resume extends Component{
 
         return(
             <div id="resume" onMouseDown={(e) => this.props.handleMouseDown(e, 1)}   className={selection}>
-                <img id="image" src="https://img.icons8.com/dotty/80/000000/open-resume.png" alt=""/>
-                <p>Resume</p>
+                <img id="image" src="https://img.icons8.com/material-outlined/60/000000/set-as-resume.png" alt=""/>
+                <h5>Resume</h5>
             </div>
         );
     }

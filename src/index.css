@@ -1,12 +1,8 @@
 body {
     background-color: #EEE;
-    font-family: sans-serif;
+    font-family: proxima nova;
     font-size: 20px;
     padding: 25px;
     margin-left: 10%;
     overflow: auto;
-}
-
-#container li {
-    margin-bottom: 10px;
 }

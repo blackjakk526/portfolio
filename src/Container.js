@@ -42,7 +42,7 @@ class Container extends Component {
 
     render() {
         return(
-            <div id="mainpage">
+            <div>
                 <Sidebar selected={this.state.selected} handleMouseDown={this.handleMouseDown}></Sidebar>
                 <div className={this.state.selected[0].toString()}>
                     <h2>Alan Gounley</h2>
@@ -55,11 +55,12 @@ class Container extends Component {
                 </div>
                 <div className={this.state.selected[2].toString()}>
                     <p>Coming Soon</p>
+                    <p>Please check out my GitHub</p>
                 </div>
                 <div className={this.state.selected[3].toString()}>
                     <p>Alan Gounley</p>
-                    <p>(717)650-7175</p>
-                    <p>agounley@gmail.com</p>
+                    <p>(717) 650-7175</p>
+                    <a href="mailto:agounley@gmail.com"><p>agounley@gmail.com</p></a>
                 </div>
             </div>
         );

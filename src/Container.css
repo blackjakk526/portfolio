@@ -4,10 +4,12 @@
 
 .true{
     display: show;
+    /* filter: invert(1) hue-rotate(180deg); */
 }
 
 p{
     text-align:center;
+    color: gray;
 }
 
 h2{

@@ -15,6 +15,10 @@ class Sidebar extends Component {
                 <Resume id="resume" handleMouseDown={(e,value) => this.props.handleMouseDown(e,value)} menuSelection={this.props.selected[1]}></Resume>
                 <Portfolio id="portfolio" handleMouseDown={(e,value) => this.props.handleMouseDown(e,value)} menuSelection={this.props.selected[2]}></Portfolio>
                 <Contact id="contact" handleMouseDown={(e,value) => this.props.handleMouseDown(e,value)} menuSelection={this.props.selected[3]}></Contact>
+                <div className="social">
+                    <a href="https://www.linkedin.com/in/alan-gounley-1b288856" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.github.com/blackjakk526" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         );
     }
