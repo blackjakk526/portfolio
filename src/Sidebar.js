@@ -9,7 +9,7 @@ class Sidebar extends Component {
     render() {
         return(
             <div className="sidemenu">
-                <img className="profile" src="./Alan_profile1.jpg" alt="Profile"/>
+                <img className="profile" src="./Alan_profile1.jpg"/>
                 <h1>Alan Gounley</h1>
                 <About id="about" handleMouseDown={(e,value) => this.props.handleMouseDown(e,value)} menuSelection={this.props.selected[0]}></About>
                 <Resume id="resume" handleMouseDown={(e,value) => this.props.handleMouseDown(e,value)} menuSelection={this.props.selected[1]}></Resume>

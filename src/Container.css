@@ -29,3 +29,26 @@ h2{
      left: 50% !important;
      transform: translate(-50%, 0%) !important;
  }
+
+ @media screen and (max-width:1400px){
+    #Doc{
+        scale:0.75;
+     }
+}
+
+@media screen and (max-width:1000px){
+    #Doc{
+        scale:0.5;
+     }
+}
+
+@media screen and (max-width:750px){
+    #Doc{
+        scale:0.40;
+     }
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}

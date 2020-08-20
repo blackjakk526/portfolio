@@ -1,11 +1,11 @@
 #portfolio{
     font-size: 1vw;
     user-select: none;
-    height: 14vh;
+    height: 7vw;
     padding-left: 5px;
     position: absolute;
-    left: 2px;
-    top: 46vh;
+    left: 5px;
+    top: 21.5vw;
     width: 7vw;
     border: 3px solid black;
     text-align: center;
@@ -20,13 +20,12 @@
     background-color: white;
 }
 
-@media screen and (max-width:1200px){
-    /* #image{
-        display:none;
-    } */
+@media screen and (max-width:1000px){
     #portfolio{
-        height: 7vh;
-        top: 31vh;
+        height: 75px;
+        width: 65px;
+        font-size: 15px;
+        top: 245px;
     }
 }
 

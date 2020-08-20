@@ -47,8 +47,11 @@ class Container extends Component {
                 <div className={this.state.selected[0].toString()}>
                     <h2>Alan Gounley</h2>
                     <p>Software Engineer/Developer</p>
+                    <ul>
+                        <li><img src="./checkmark-48.ico"/>Java</li>
+                    </ul>
                 </div>
-                <div className={this.state.selected[1].toString()}>
+                <div id="Doc" className={this.state.selected[1].toString()}>
                     <Document file={pdf} renderMode="canvas">
                         <Page pageNumber={1} scale="2.0"/>
                     </Document>

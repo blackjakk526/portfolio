@@ -7,35 +7,34 @@
     position: absolute;
     padding-left: 5px;
     left: 0px;
-    top: 0vh;
+    top: 0vw;
     width: 7.5vw;
-    height: 15vh;
-    bottom: 14vh;
+    height: 7.5vw;
 }
 
 h1{
-    font-size: 0.75vw; 
+    font-size: 0.85vw; 
     color: whitesmoke;
     background-color: black;
     text-align: center;
-    padding-left: 5px;
     position: absolute;
-    left: 4px;
-    top: 14.5vh;
-    width: 7.2vw;
-    height: 2vh;
+    left: 5px;
+    top: 6.8vw;
+    width: 7.5vw;
+    height: 1.5vw;
 }
 
 .social{
     position:absolute;
-    left:10px;
-    top: 76vh;
+    left: 7px;
+    top: 35vw;
     font-size: 2vw;
+    transition: top 2.5s;
 }
 
 i{
-    padding-left: 15px;
-    padding-top: 15px;
+    padding-left: 1.5vw;
+    padding-top: 1.5vw;
 }
 
 a:link{
@@ -46,8 +45,24 @@ a:visited {
     color: maroon;
 }
 
-/* @media screen and (max-width:1200px){
+@media screen and (max-width:1000px){
     .profile{
-        width: calc(vw/5) vh;
+        height: 75px;
+        width: 75px;
     }
-} */
+
+    h1{
+        width: 75px;
+        height: 13px;
+        font-size: 10px;
+        top: 70px;
+    }
+    .social{
+        top: 405px;
+        font-size: 30px;
+    }
+    i{
+        padding-left:5px;
+        padding-top:5px;
+    }
+}
