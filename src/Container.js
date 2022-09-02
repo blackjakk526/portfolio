@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Container.css";
 import Sidebar from "./Sidebar";
 import { Document, Page } from 'react-pdf';
-import pdf from './Alan Gounley resume 08-09-2020.pdf'
+// import pdf from './public/Alan Gounley resume.pdf'
 
 import { pdfjs } from 'react-pdf';
 pdfjs.disableFontFace =  true;
@@ -48,11 +48,14 @@ class Container extends Component {
                     <h2>Alan Gounley</h2>
                     <p>Software Engineer/Developer</p>
                     <ul>
-                        <li><img src="./checkmark-48.ico"/>Java</li>
+                        <li><img src="./checkmark-48.ico"/>C#</li>
+                        <li><img src="./checkmark-48.ico"/>PHP</li>
+                        <li><img src="./checkmark-48.ico"/>JavaScript</li>
+                        <li><img src="./checkmark-48.ico"/>React</li>
                     </ul>
                 </div>
                 <div id="Doc" className={this.state.selected[1].toString()}>
-                    <Document file={pdf} renderMode="canvas">
+                    <Document file={'./public/Alan_Gounley_resume.pdf'} renderMode="canvas">
                         <Page pageNumber={1} scale="2.0"/>
                     </Document>
                 </div>
