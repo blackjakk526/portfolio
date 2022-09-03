@@ -55,7 +55,7 @@ class Container extends Component {
                     </ul>
                 </div>
                 <div id="Doc" className={this.state.selected[1].toString()}>
-                    <Document file={'./public/Alan_Gounley_resume.pdf'} renderMode="canvas">
+                    <Document file={'./Alan_Gounley_resume.pdf'} renderMode="canvas">
                         <Page pageNumber={1} scale="2.0"/>
                     </Document>
                 </div>
